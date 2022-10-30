@@ -230,7 +230,8 @@ int main(int argc, char *argv[])
 
   // -> Reading file
   int offset = find_offset((int)file_size);
-  char data[file_size+offset];
+  char *data;
+  data = (char *)malloc((file_size+offset) * sizeof(char));
   file_descriptor = fopen(parsed_arguments.arg_target_filename,"r");
   if(file_descriptor == NULL) { printf("Darlene- can't read target file!\n"); return 1; }
   for(int i = 0; i < file_size; i++ )
@@ -264,5 +265,8 @@ int main(int argc, char *argv[])
   }
   fwrite(data,1,file_size+offset,file_descriptor);
   fclose(file_descriptor);
+
+  // -> Free data array
+  free(data);
   printf("Darlene- done!\n");
 }
