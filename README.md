@@ -10,6 +10,10 @@ $ cd darlene
 $ bash compile.sh
 ```
 A binary will be created in the **build/** directory.
+## Future plans
+In the future I plan to:
+- Add larger files feature
+- Add stdin human readable ouput and input feature
 ## Bugs or requests
 Feel free to create a **pull request** or **issue**, everything will be read and taken into account.
 ## License
