@@ -3,7 +3,6 @@ src_dir=src
 bin_name=darlene.bin
 version="beta-1.0"
 
-cat .banner
 echo "Creating $out_dir directory"
 mkdir -p $out_dir
 echo "Compiling darlene"
