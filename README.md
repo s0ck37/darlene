@@ -10,3 +10,7 @@ $ cd darlene
 $ bash compile.sh
 ```
 A binary will be created in the **build/** directory.
+## Bugs or requests
+Feel free to create a **pull request** or **issue**, everything will be read and taken into account.
+## License
+This program is licensed under GNU GPL 3.0
