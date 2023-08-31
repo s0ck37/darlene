@@ -6,7 +6,7 @@ For the moment Darlene adds a cero padding so the hash from the decrypted file m
 ## Building
 For building Darlene from source:
 ```
-$ git clone https://github.com/Kik449/darlene
+$ git clone https://github.com/s0ck37/darlene
 $ cd darlene
 $ bash compile.sh
 ```
