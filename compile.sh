@@ -1,7 +1,7 @@
 out_dir=build
 src_dir=src
 bin_name=darlene.bin
-version="v1.0"
+version="v1.1"
 
 echo "Creating $out_dir directory"
 mkdir -p $out_dir
